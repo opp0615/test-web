@@ -8,6 +8,9 @@ export default function Home() {
         <li>
           <Link href="/line-break">/line-break</Link>
         </li>
+        <li>
+          <Link href="/error-boundary">/error-boundary</Link>
+        </li>
       </ul>
     </main>
   );

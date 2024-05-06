@@ -12,7 +12,7 @@ interface State {
 const UNEXPECTED_ERROR_MESSAGE = "예기치 못한 문제가 발생했습니다.";
 
 // 비동기 에러를 처리하기 위한 콜백 함수
-function captureReject(e) {
+function captureReject(e: PromiseRejectionEvent) {
   e.preventDefault();
 
   alert(UNEXPECTED_ERROR_MESSAGE);
